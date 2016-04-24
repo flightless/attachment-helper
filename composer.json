@@ -1,12 +1,12 @@
 {
-    "name": "flightless/attachment-helper",
+    "name": "moderntribe/attachment-helper",
     "description": "A library for adding a file upload field to an admin meta box",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Jonathan Brinley",
-            "email": "jbrinley@flightless.us"
+            "email": "jonathan@tri.be"
         }
     ],
     "minimum-stability": "dev",
