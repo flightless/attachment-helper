@@ -1,7 +1,7 @@
 {
     "name": "flightless/attachment-helper",
     "description": "A library for adding a file upload field to an admin meta box",
-    "type": "wordpress-muplugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AttachmentHelper\\": "AttachmentHelper"
+        }
+    }
 }
